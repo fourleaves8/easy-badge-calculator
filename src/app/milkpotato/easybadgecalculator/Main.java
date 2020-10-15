@@ -15,7 +15,9 @@ public class Main {
 
 			for (clrStage = 0; clrStage < stage.length; clrStage++) {
 				stage[clrStage] = clrStage + 1;
-				System.out.println(stage[clrStage]);
+								
+				int getBadge = stage[clrStage];
+				System.out.printf("클리어한 스테이지: %d / 획득 베지 수 : %d%n", stage[clrStage], getBadge);
 			}
 		}
 
